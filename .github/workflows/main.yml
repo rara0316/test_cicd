@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: checkout
     #Git액션
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
     - name: build
       run: pip install -r requirements.txt
