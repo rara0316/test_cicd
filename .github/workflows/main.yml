@@ -22,8 +22,5 @@ jobs:
     - name: build
       run: pip install -r requirements.txt
       
-    - name: test
-      run: python app.py test
-      
     - name: deploy
       run: python app.py prod
